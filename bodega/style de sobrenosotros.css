@@ -1,0 +1,56 @@
+/* header*/
+header{
+    background-color: #404665;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 15 auto;
+    
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    color: white;
+    
+}
+
+nav li{
+    display: inline; /*las listas estan en bold cambiar a inline para no llenar todo el espacio*/
+    margin:0 0 0 15px; /*primer numero para arriba,segundo derecha,tercero abajo y cuarto izquierda*/
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase; /* para poner mayusculas */
+    font-weight: bold; /*para poner negrita*/
+    font-size: 22px;
+    
+}
+/**/
+.imag{
+    margin: 250px;
+}
+.texto{
+    text-decoration: none;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: normal;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background: #404665;
+    padding: 40px;
+    margin: auto;
+}
+.Copyright{
+    color : black;
+    font-size: 13px;
+    margin: 20px;
+
+}

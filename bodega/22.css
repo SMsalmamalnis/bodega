@@ -1,0 +1,117 @@
+
+
+/* header*/
+header{
+    background-color: #404665;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 15 auto;
+    
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    color: white;
+    
+}
+
+nav li{
+    display: inline; /*las listas estan en bold cambiar a inline para no llenar todo el espacio*/
+    margin:0 0 0 15px; /*primer numero para arriba,segundo derecha,tercero abajo y cuarto izquierda*/
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase; /* para poner mayusculas */
+    font-weight: bold; /*para poner negrita*/
+    font-size: 22px;
+    
+}
+/*acordeon*/
+.acordeon{
+    margin: 25px;
+
+}
+
+.acordeon h2,
+.acordeon .ver-mas-flecha{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.acordeon .vinos1{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.escondido{
+    display: none;
+}
+
+.acordeon .escondido .ver-menos-flecha{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.acordeon .ver-mas-flecha:hover{
+    color: rgba(0, 0, 0, 2) ;
+    font-weight: 200;
+}
+/*acordeon champange*/
+.acordeon h2,
+.acordeon .ver-mas-flecha1{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.acordeon .champagne{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.escondido1{
+    display: none;
+}
+.acordeon .escondido1 .ver-menos-flecha1{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.acordeon .ver-mas1{
+    color: rgba(0, 0, 0, 0.7);
+}
+.acordeon .ver-mas1:hover{
+    color: rgba(0, 0, 0, 2) ;
+    font-weight: 200;
+}

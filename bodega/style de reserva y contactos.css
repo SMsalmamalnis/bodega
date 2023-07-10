@@ -1,0 +1,87 @@
+/* header*/
+header{
+    background-color: #404665;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 15 auto;
+    
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    color: white;
+    
+}
+
+nav li{
+    display: inline; /*las listas estan en bold cambiar a inline para no llenar todo el espacio*/
+    margin:0 0 0 15px; /*primer numero para arriba,segundo derecha,tercero abajo y cuarto izquierda*/
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase; /* para poner mayusculas */
+    font-weight: bold; /*para poner negrita*/
+    font-size: 22px;
+    
+}
+/*form*/
+.titulo{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+.input-pp{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+
+}
+/*tabla*/
+table{
+    margin: 40px o
+}
+thead {
+    background: #d6cdcd;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+button{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #404665;
+    border: none;
+    border-radius: 5px;
+    transition:1s all;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #151720;
+}
